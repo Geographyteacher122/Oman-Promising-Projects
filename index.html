@@ -465,7 +465,7 @@ function showQ(){
 const SVGN=NS;
 function react(k,txt){const g=document.querySelector('.guide img'),b=$('bub');if(g){g.classList.remove('cheer','think');void g.offsetWidth;g.classList.add(k)}if(b&&txt){b.textContent=txt;b.classList.remove('on');void b.offsetWidth;b.classList.add('on');clearTimeout(react.h);react.h=setTimeout(()=>b.classList.remove('on'),2600)}}
 const pick=a=>a[Math.floor(Math.random()*a.length)];
-const GT={ok:['أحسنت!','رائع!','إجابة ممتازة!','هكذا يكون الاستكشاف!'],bad:['فكّر مرة أخرى','قريبة! دقّقي','لا بأس، حاول ثانية']};
+const GT={ok:['أحسنت!','رائع!','إجابة ممتازة!','هكذا يكون الاستكشاف!'],bad:['فكّر مرة أخرى','قريبة! دقّق','لا بأس، حاول ثانية']};
 const BD={energy:['رائدُ الطاقة','اكتشفتِ مشروع الطاقة','<circle cx="24" cy="24" r="19" fill="#e8761c" stroke="#fff" stroke-width="2.4"/><path d="M27 8L14 27H23L20 40L34 20H25Z" fill="#fff"/>'],
  industry:['رائدُ الصناعة','أنهيت مشاريع الصناعة','<circle cx="24" cy="24" r="19" fill="#16817a" stroke="#fff" stroke-width="2.4"/><path d="M12 35V22L19 27V20L26 25V14H31V35Z" fill="#fff"/>'],
  agri:['رائدُ الزراعة','أنهيت مشاريع الزراعة','<circle cx="24" cy="24" r="19" fill="#26734d" stroke="#fff" stroke-width="2.4"/><path d="M24 38V14" stroke="#fff" stroke-width="2.4"/><ellipse cx="19" cy="19" rx="3.4" ry="6" fill="#ffd166" transform="rotate(-25 19 19)"/><ellipse cx="29" cy="19" rx="3.4" ry="6" fill="#ffd166" transform="rotate(25 29 19)"/><ellipse cx="19" cy="29" rx="3.4" ry="6" fill="#ffd166" transform="rotate(-25 19 29)"/><ellipse cx="29" cy="29" rx="3.4" ry="6" fill="#ffd166" transform="rotate(25 29 29)"/>'],
